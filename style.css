@@ -1,0 +1,86 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.heading {
+  color: rgb(199, 142, 20);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: fantasy;
+}
+
+#cards {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 0 calc(23% - 1em);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 4px rgb(80, 160, 160);
+  padding: 1.5em;
+  text-align: center ;
+  box-sizing: border-box;
+  background-color: rgb(160, 175, 170);
+}
+
+.card img {
+  width: 50px; 
+  height: auto; 
+  max-width: 50px; 
+  max-height: 50px; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color:rgb(14, 11, 7)
+}
+
+.card .price {
+  color: green;
+  margin-bottom: 5px;
+}
+
+.card .description {
+  margin-bottom: 10px;
+}
+
+.card .category {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.card .rating {
+  margin-bottom: 5px;
+}
+
+.card .count {
+  color: rgb(136, 12, 12);
+}
+
+.card .quantity {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contact-details{
+  text-align: center;
+}
+
+.social-media {
+  text-align: center;
+}
+.social-media img {
+  margin-right: 5px;
+  width: 15px; 
+  height: 15px; 
+ 
+}
